@@ -1,0 +1,26 @@
+.main{
+    border: 1px solid green;
+}
+
+.red_color{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+input{
+    border: 1px solid red;
+}
+
+#green_color{
+    color: green
+}
+
+.button{
+    border: 1px solid green;
+    width: 215px;
+    height: 50px;
+    color: green
+}

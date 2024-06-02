@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset = "utf-8">
+        <title>My first site</title>
+    </head>
+    <body>
+        <button>
+            Привет
+        </button>
+        <p>
+            Hello world
+        </p>
+        <h1>
+            Загаловок 1
+        </h1>
+
+        <!--загаловок h1 используется лишь раз в сайтах, остальные 6 можно использовать несколько раз -->
+        
+        <p>
+            <em>Hello</em> <b>World!</b>
+        </p>
+        <!--Когда используем несколько тегев внутри другого важно понимать что первый тег является родительским, те что внутри открываются и закрываются только внутри него-->
+        
+        <img
+        width = "300px"
+        height = "200px"
+        src = "https://m.media-amazon.com/images/I/61QFtjVVy5L._SL1024_.jpg"
+        alt = "roses.jpg">
+        
+        <img
+        src = "./roses.jpg"
+        alt = "roses.jpg">
+        
+        <br>
+
+        <button>
+            Click me
+        </button>
+
+        <input type = "text">
+        <input type = "number">
+        <input type = "password">
+        <div>
+            <!--Блок-->
+        </div>
+    
+    <!--inline, internal, external-->
+    <!--inline - пишем внутри тега-->
+    <!--internal в закрывающемся теге <style>-->
+    <!--external в отдельном .css файле-->
+
+    <div class = "second">
+        <p>Friend</p>
+    </div>
+    <!--При обращении к элементу исользуем ее имя то есть div{}-->
+    <!--При обращении к классу используем .second{}-->
+    <!--При обращении к идентификатору используя #second{}-->
+    <!--Один класс можно использовать несколько раз,  идентификаторы лишь один раз по правилам семантики-->
+
+    </body>
+
+</html>
